@@ -1,14 +1,11 @@
-# testing
 # The URL the site will be built for
 base_url = "/"
 
 # Used in RSS by default
 title = "My website"
+
 description = "Random musings"
 
-# The default language, used in RSS
-# TODO: I would love to support more languages and make this easy to handle
-# with other facets of the theme.
 default_language = "en"
 
 # Whether to generate a RSS feed automatically
@@ -24,7 +21,7 @@ theme = "zerm"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
 # Built in taxonomies of zerm.
 taxonomies = [
@@ -45,7 +42,7 @@ author = "Brian Shu"
 show_author = false
 
 # Show categories a blog post is marked with in its meta data.
-show_categories = true
+show_categories = false
 
 # Show tags a blog post is marked with in its meta data.
 show_tags = true
@@ -92,7 +89,6 @@ logo_home_link = "/"
 main_menu = [
               {url="/about/", name="about"},
               {url="/contact/", name="contact"},
-              {url="https://google.com", name="Google", external=true},
 ]
 
 # Displayed as title of drop-down menu when size of main_menu > show_menu_items.
@@ -111,7 +107,7 @@ disqus = { enabled=false, short_name="" }
 # generate Table of Contents for all articles
 # Table of Contents can be generated for individual articles
 # by adding `ToC = true` in [extra] section in frontmatter
-ToC = true
+ToC = false
 
 [markdown]
 highlight_code = true

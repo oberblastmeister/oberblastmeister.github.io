@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oberblastmeister.github.io/sitemap.xml
